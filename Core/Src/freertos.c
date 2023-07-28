@@ -111,7 +111,7 @@ void MX_FREERTOS_Init(void) {
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
-  osThreadDef(usbTask, usb_task, osPriorityNormal, 0, 512);
+  osThreadDef(usbTask, usb_task, osPriorityNormal, 0, 2048);
   usbTaskHandle = osThreadCreate(osThread(usbTask), NULL);
   
   osThreadDef(exFlashTask, exflash_task, osPriorityNormal, 0, 512);
@@ -130,7 +130,7 @@ void MX_FREERTOS_Init(void) {
 void StartDefaultTask(void const * argument)
 {
   /* init code for USB_DEVICE */
-  //MX_USB_DEVICE_Init();
+  
   /* USER CODE BEGIN StartDefaultTask */
   /* Infinite loop */
   for(;;)

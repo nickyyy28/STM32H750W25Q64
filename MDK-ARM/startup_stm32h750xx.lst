@@ -1282,10 +1282,11 @@ ARM Macro Assembler    Page 20
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M7.fp.dp --apcs=
 interwork --depend=h750w25q64\startup_stm32h750xx.d -oh750w25q64\startup_stm32h
-750xx.o -I..\Core\Inc -I../Core/Inc -IF:\Desk\H750W25Q64\MDK-ARM\RTE -IF:\Keil\
-ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include -IF:\Keil\ARM\PACK\Keil\STM32H7xx_DFP\2.
-7.0 --predefine="__UVISION_VERSION SETA 514" --predefine="_RTE_ SETA 1" --prede
-fine="STM32H750xx SETA 1" --list=startup_stm32h750xx.lst startup_stm32h750xx.s
+750xx.o -I..\Core\Inc -I../Core/Inc -I.\RTE\_H750W25Q64 -IF:\Keil\ARM\PACK\ARM\
+CMSIS\5.7.0\CMSIS\Core\Include -IF:\Keil\ARM\PACK\Keil\STM32H7xx_DFP\2.7.0\Driv
+ers\CMSIS\Device\ST\STM32H7xx\Include --predefine="__UVISION_VERSION SETA 532" 
+--predefine="_RTE_ SETA 1" --predefine="STM32H750xx SETA 1" --predefine="_RTE_ 
+SETA 1" --list=startup_stm32h750xx.lst startup_stm32h750xx.s
 
 
 

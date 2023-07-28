@@ -48,7 +48,7 @@ USBD_HandleTypeDef hUsbDeviceFS;
  * -- Insert your variables declaration here --
  */
 /* USER CODE BEGIN 0 */
-
+extern USBD_ClassTypeDef  USBD_Composite_CDC_MSC;
 /* USER CODE END 0 */
 
 /*
@@ -73,7 +73,7 @@ void MX_USB_DEVICE_Init(void)
   {
     Error_Handler();
   }
-  if (USBD_RegisterClass(&hUsbDeviceFS, &USBD_CDC) != USBD_OK)
+  if (USBD_RegisterClass(&hUsbDeviceFS, &USBD_Composite_CDC_MSC) != USBD_OK)
   {
     Error_Handler();
   }

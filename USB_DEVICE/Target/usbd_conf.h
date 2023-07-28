@@ -36,7 +36,7 @@
 #include "stm32h7xx_hal.h"
 
 /* USER CODE BEGIN INCLUDE */
-
+//#define USE_USBD_COMPOSITE
 /* USER CODE END INCLUDE */
 
 /** @addtogroup USBD_OTG_DRIVER

@@ -2,6 +2,7 @@
 #include "main.h"
 #include "usbd_cdc_if.h"
 #include "usart_cli.h"
+#include "usb_device.h"
 #include <string.h>
 #include "w25qxx.h"
 #include "usart.h"
@@ -121,6 +122,7 @@ void usb_task(const void* param)
 {
 	shell_init();
 	W25qxx_Init();
+	MX_USB_DEVICE_Init();
 	Command_t *cmd = register_command("show", show_msg);
 	if (cmd != NULL) {
 		command_add_param(cmd, "fvar", TYPE_FLOAT);
@@ -157,5 +159,6 @@ void usb_task(const void* param)
 	extern uint32_t rx_len;
 	extern uint32_t last_cnt, cur_cnt;
 	
+	while(1) osDelay(1);
 	shell_exec();
 }

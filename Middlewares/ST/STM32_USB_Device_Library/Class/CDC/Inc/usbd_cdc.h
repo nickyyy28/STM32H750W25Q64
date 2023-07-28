@@ -47,7 +47,7 @@ extern "C" {
 #define CDC_OUT_EP                                  0x01U  /* EP1 for data OUT */
 #endif /* CDC_OUT_EP */
 #ifndef CDC_CMD_EP
-#define CDC_CMD_EP                                  0x82U  /* EP2 for CDC commands */
+#define CDC_CMD_EP                                  0x83U//0x82U  /* EP2 for CDC commands */
 #endif /* CDC_CMD_EP  */
 
 #ifndef CDC_HS_BINTERVAL
