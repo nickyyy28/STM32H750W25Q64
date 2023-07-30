@@ -157,9 +157,9 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>117</LineNumber>
+          <LineNumber>246</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134253264</Address>
+          <Address>134253448</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -168,39 +168,39 @@
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>../Core/Src/stm32h7xx_it.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\H750W25Q64\../Core/Src/stm32h7xx_it.c\117</Expression>
+          <Expression>\\H750W25Q64\../Core/Src/stm32h7xx_it.c\246</Expression>
         </Bp>
         <Bp>
           <Number>1</Number>
           <Type>0</Type>
-          <LineNumber>132</LineNumber>
+          <LineNumber>1304</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134230688</Address>
+          <Address>134240094</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>../Core/Src/stm32h7xx_it.c</Filename>
+          <Filename>../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\H750W25Q64\../Core/Src/stm32h7xx_it.c\132</Expression>
+          <Expression>\\H750W25Q64\../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c\1304</Expression>
         </Bp>
         <Bp>
           <Number>2</Number>
           <Type>0</Type>
-          <LineNumber>102</LineNumber>
+          <LineNumber>1399</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134251920</Address>
+          <Address>134240424</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>../Core/Src/stm32h7xx_it.c</Filename>
+          <Filename>../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\H750W25Q64\../Core/Src/stm32h7xx_it.c\102</Expression>
+          <Expression>\\H750W25Q64\../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c\1399</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -269,7 +269,7 @@
 
   <Group>
     <GroupName>Application/MDK-ARM</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -481,7 +481,7 @@
       <GroupNumber>4</GroupNumber>
       <FileNumber>16</FileNumber>
       <FileType>1</FileType>
-      <tvExp>0</tvExp>
+      <tvExp>1</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>../USB_DEVICE/Target/usbd_conf.c</PathWithFileName>

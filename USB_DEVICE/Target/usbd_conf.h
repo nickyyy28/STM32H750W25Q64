@@ -37,6 +37,7 @@
 
 /* USER CODE BEGIN INCLUDE */
 //#define USE_USBD_COMPOSITE
+#define MSC_MEDIA_PACKET             4096U
 /* USER CODE END INCLUDE */
 
 /** @addtogroup USBD_OTG_DRIVER
@@ -64,7 +65,7 @@
   */
 
 /*---------- -----------*/
-#define USBD_MAX_NUM_INTERFACES     1U
+#define USBD_MAX_NUM_INTERFACES     3U
 /*---------- -----------*/
 #define USBD_MAX_NUM_CONFIGURATION     1U
 /*---------- -----------*/
